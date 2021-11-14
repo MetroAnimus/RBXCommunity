@@ -13,3 +13,27 @@ bot.command({
   name: "ping", //command name
   code: `My Ping Is \`$ping ms\` `// this is the bots code were you will be creating a command copy it and paste it to create more commands use !ping to execute //
  });
+
+
+
+bot.command({ // kick command used to kick users //
+    name: "kick",
+    code: `$title[1;User Kicked By $username]
+    $description[1;You Have Been Kicked For:$message]
+    $color[1;fb0606]
+    $kick[$mentioned[1]]`
+});
+
+
+
+bot.command({
+ name: "ban",
+ code: `$ban[$Mentioned[1]]
+$sendDM[$mentioned[1]; You have been banned from $servername]
+Successfully banned $mentioned[1]
+`
+});
+
+
+
+// all avaliable commands will be coming at version 10 //
