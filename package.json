@@ -5,7 +5,7 @@
   "main": "package/index.js",
   "typings": "package/index.d.ts",
   "scripts": {
-    "start": "node test.js",
+    "start": "node server.js",
     "prettycheck": "prettier --check \"package/**/*.js\"",
     "prettywrite": "prettier --write \"package/**/*.js\""
   },
