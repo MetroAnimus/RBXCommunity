@@ -1,1 +1,1 @@
-Trying to create a aoi.js bot? or even a discord bot? well you got your buddy here ill help you code!
+This is now the mediums stage of aoi.js i will be giving some commands and codes that might help you through your startup!
