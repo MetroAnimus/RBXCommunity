@@ -34,6 +34,17 @@ Successfully banned $mentioned[1]
 `
 });
 
+bot.command({
+  name: "device",
+  code: `$title[1;Device]
+  $description[1;<@$findMember[$message]> is on $replaceText[$replaceText[$replaceText[$replaceText[$platform[$findMember[$message]];none;None ✖️];web;Web 🌐];mobile;Mobile 📱];desktop;PC 🖥]]
+  $thumbnail[1;$authorAvatar]
+  $addTimestamp
+  $color[1;#303136]
+  `
+})
 
+
+// this device command is able to now that the user executed this command what platform he is on this function is not confirmed to be working so hooe it is! //
 
 // all avaliable commands will be coming at version 10 //
