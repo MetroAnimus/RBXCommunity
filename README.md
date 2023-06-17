@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @RBXCommunity
+- 👋 Hi, I’m @MetroAnimuus
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning code
 - 💞️ I’m looking to collaborate on javascript discord bot
